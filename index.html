@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Blog Layout</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyBlog</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      
+      <!-- Blog Posts -->
+      <div class="col-md-8">
+        <div class="post">
+          <h2>Post Title One</h2>
+          <p class="text-muted">June 8, 2025 by <strong>Author</strong></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut justo nec sapien varius fermentum.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+
+        <div class="post">
+          <h2>Post Title Two</h2>
+          <p class="text-muted">June 7, 2025 by <strong>Author</strong></p>
+          <p>Aliquam erat volutpat. Nullam at erat nec orci feugiat vehicula. Nulla facilisi.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-md-4">
+        <div class="sidebar-box">
+          <h4>About</h4>
+          <p>This is a simple blog layout built with Bootstrap 5. You can use it as a template for your own posts.</p>
+        </div>
+
+        <div class="sidebar-box">
+          <h4>Categories</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none">Web Development</a></li>
+            <li><a href="#" class="text-decoration-none">Design</a></li>
+            <li><a href="#" class="text-decoration-none">JavaScript</a></li>
+            <li><a href="#" class="text-decoration-none">Tutorials</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

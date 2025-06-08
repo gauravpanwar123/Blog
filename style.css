@@ -1,0 +1,60 @@
+/* General body styling */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Blog post styling */
+h2 {
+  color: #333;
+}
+
+.post {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.post:hover {
+  transform: translateY(-3px);
+}
+
+/* Sidebar boxes */
+.sidebar-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Sidebar links */
+.sidebar-box ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.sidebar-box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sidebar-box a:hover {
+  text-decoration: underline;
+}
+
+/* Read more button */
+.btn-primary {
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 500;
+}
